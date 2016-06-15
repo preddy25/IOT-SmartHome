@@ -41,5 +41,3 @@ b) Json
 c) paho mqtt client 
 
 d) grovepi 
-
-e) pigpio
