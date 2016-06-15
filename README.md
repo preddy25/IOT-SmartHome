@@ -1,14 +1,25 @@
 Smart Home Automation Project Using AWS, Sumologic and Raspberry Pi. For CICO03 Module.
 
-Hardware Used
-(1)	SBC - Raspberry Pi & GrovePi Shield + Pi Cobbler Breakout 
-Sensors Used - Grove Analog Temperature Sensor - Connected to A1 
- (1) 	Grove Analog Light Sensor - Connected to A0 
+Hardware Used;
+
+SBC - Raspberry Pi 3 & GrovePi Shield + Pi Cobbler Breakout 
+
+Sensors Used ;
+
+a.  Grove Analog Temperature Sensor - Connected to A1 
+
+b. 	Grove Analog Light Sensor - Connected to A0 
+ 
 c.	Grove Touch Sensor - Connected to D3 
+
 d.	PIR (Passive Infra-red) Sensor - Connected to GPIO 4 
+
 e.	Opto-isolated Relay - Connected to GPIO 23 & 24 
+
 f.	4W LED Strip DC12V 
+
 g.	0.3W Motor Fan DC12 V 
+
 
 
 (2) Relays are to be +5V rail powered and Input of 12V to Motor Fan and LED strip (3)Include an image of the hardware components/ schematics
