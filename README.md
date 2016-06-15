@@ -13,13 +13,16 @@ Create a Github (https://github.com/) repository and upload the following:
                      4W LED Strip DC12V
                      0.3W Motor Fan  DC12 V 
 
+
   (2) Relays are to be +5V rail powered and Input of 12V to Motor Fan and LED strip 
   (3)Include an image of the hardware components/ schematics
+
 
 2. Current Code - Python 3.51 - gp_1a1.py 
         * Used to upload sensor data to AWS IOT for analysis via cert-based SSL in MQTT json strings.
         * Also required to recieve data for actuation commmand.
         
+
 
 (2) External Libraries required include a) SSL
                                         b) Json
