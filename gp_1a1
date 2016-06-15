@@ -1,4 +1,4 @@
-
+# Temasek Polytechnic TPIOT - CIC03 Final Project - Group of Teow Poh Choo , Fan Siew Boon (1571547G)
 #!/usr/bin/env python3
 
 # Send Grove sensor data periodically to AWS IoT and process actuation commands received.
@@ -9,14 +9,11 @@ import ssl
 import json
 import paho.mqtt.client as mqtt
 import grovepi
-# import pigpio
-
 import RPi.GPIO as GPIO
 
 GPIO.setwarnings(False)
 # Set the pin numbering to the BCM (same as GPIO) numbering format.
 GPIO.setmode(GPIO.BCM)
-# GPIO.setmode(GPIO.BOARD)
 relay_1 = 23
 relay_2 = 24
 GPIO_PIR = 4
@@ -26,12 +23,6 @@ GPIO.setup(relay_2, GPIO.OUT)
 GPIO.setup(GPIO_PIR,GPIO.IN) 
 GPIO.output(relay_1, 1)
 GPIO.output(relay_2, 1)
-
-#GPIO.input(pir_sensor, 1)
-
-# read status of pin/port and assign to variable i
-# i = GPIO.input(port_or_pin)
-
 
 # TODO: Change this to the name of our Raspberry Pi, also known as our "Thing Name"
 deviceName = "g41pi"
