@@ -19,7 +19,6 @@ e.	4W LED Strip DC9V
 f.	0.3W Motor Fan DC9V 
 
 
-
 (2) Relays are to be +5V rail powered and Input of DC9V to Motor Fan and LED strip 
 
 (3) Hardware components & schematic -IOT_CIC03_SmartHome_bb.jpg
@@ -28,6 +27,8 @@ https://github.com/preddy25/IOT-SmartHome/blob/master/IOT_CIC03_SmartHome_bb.jpg
 
 Software & Code
 1.	Current Code - Python 3.51 - gp_1a1.py 
+
+https://github.com/preddy25/IOT-SmartHome/blob/master/gp_1a1
 
  - Used to upload sensor data to AWS IOT for analysis via cert-based SSL in MQTT json strings. 
  - Also required to recieve data for actuation commmand.
