@@ -24,6 +24,8 @@ f.	0.3W Motor Fan DC9V
 
 (3) Hardware components & schematic -IOT_CIC03_SmartHome_bb.jpg
 
+https://github.com/preddy25/IOT-SmartHome/blob/master/IOT_CIC03_SmartHome_bb.jpg
+
 Software & Code
 1.	Current Code - Python 3.51 - gp_1a1.py 
 
